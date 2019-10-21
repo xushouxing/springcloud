@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config/springcloud-config.iml" filepath="$PROJECT_DIR$/springcloud-config/springcloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-configclient/springcloud-configclient.iml" filepath="$PROJECT_DIR$/springcloud-configclient/springcloud-configclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer/springcloud-consumer.iml" filepath="$PROJECT_DIR$/springcloud-consumer/springcloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-hystrixboard/springcloud-hystrixboard.iml" filepath="$PROJECT_DIR$/springcloud-hystrixboard/springcloud-hystrixboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springclound-api/springclound-api.iml" filepath="$PROJECT_DIR$/springclound-api/springclound-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springclound-provider/springclound-provider.iml" filepath="$PROJECT_DIR$/springclound-provider/springclound-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springclound-provider1/springclound-provider1.iml" filepath="$PROJECT_DIR$/springclound-provider1/springclound-provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springclound-simple.iml" filepath="$PROJECT_DIR$/springclound-simple.iml" />
+    </modules>
+  </component>
+</project>

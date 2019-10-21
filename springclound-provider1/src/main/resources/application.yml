@@ -1,0 +1,20 @@
+server:
+  port: 8082
+mybatis:
+  type-aliases-package: cn.itguiju.springclound.pojo
+spring:
+  application:
+    name: springclound-provider
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/cloudDB01
+    driver-class-name: com.mysql.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    prefer-ip-address: true  #eureka显示ip地址
+    lease-renewal-interval-in-seconds: 5  #每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 #每隔10秒不发生就过期

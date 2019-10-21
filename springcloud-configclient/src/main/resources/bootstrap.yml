@@ -1,0 +1,9 @@
+server:
+  port: 10012
+spring:
+  cloud:
+    config:
+      name: springconfigclent                     #从github上读取资源名称
+      uri: http://localhost:10011 #本次微服务 先启动springcloud-config获取github地址
+      profile: dev  #本次访问的配置项
+      label: master

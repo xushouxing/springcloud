@@ -1,0 +1,19 @@
+server:
+  port: 10011
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: springcloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xushouxing/resp7.git
+          username: xushouxing
+          password: xsx899194
+

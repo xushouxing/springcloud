@@ -1,0 +1,29 @@
+server:
+  port: 10010
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    prefer-ip-address: true  #eureka显示ip地址
+    lease-renewal-interval-in-seconds: 5  #每隔5秒发送一次心跳
+    lease-expiration-duration-in-seconds: 10 #每隔10秒不发生就过期
+zuul:
+  routes:
+    springclound-provider:
+       path: /provider/** # 这里是映射路径
+       serviceId: service-provider # 指定
+       strip-prefix: false #去除前缀
+  prefix: api  #前缀
+  ignored-services:   #忽略为服务
+    - consumer-service
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000 # 设置hystrix的超时时间为6000ms
+ribbon:
+  ConnectionTimeOut: 2000
+  ReadTimeOut: 2000

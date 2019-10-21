@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-config" />
+        <module name="springcloud-configclient" />
+        <module name="springcloud-consumer" />
+        <module name="springcloud-eureka" />
+        <module name="springcloud-zuul" />
+        <module name="springclound-api" />
+        <module name="springclound-provider" />
+        <module name="springclound-provider1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud-config" target="1.8" />
+      <module name="springcloud-configclient" target="1.8" />
+      <module name="springcloud-consumer" target="1.8" />
+      <module name="springcloud-eureka" target="1.8" />
+      <module name="springcloud-hystrixboard" target="1.8" />
+      <module name="springcloud-zuul" target="1.8" />
+      <module name="springclound-api" target="1.8" />
+      <module name="springclound-provider" target="1.8" />
+      <module name="springclound-provider1" target="1.8" />
+      <module name="springclound-simple" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
